@@ -5,8 +5,46 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EquiposNBA"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Equipos NBA" Height="450" Width="800" Icon="assets/128.ico">
+
+    <StackPanel Margin="8">
+        <Border Margin="8" BorderThickness="3" CornerRadius="3" BorderBrush="Black">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFE9FF0D" Offset="1"/>
+                    <GradientStop Color="#FFA200FF"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <StackPanel>
+                <TextBlock Width="268" HorizontalAlignment="Stretch" FontSize="30" FontWeight="Bold">Los Ángeles Lakers</TextBlock>
+                <WrapPanel HorizontalAlignment="Center">
+                    <Image Height="100" Source="assets/3_lakers.png"/>
+                    <Image Height="100" Source="assets/9_lakers.png"/>
+                    <Image Height="100" Source="assets/14_lakers.png"/>
+                    <Image Height="100" Source="assets/23_lakers.png"/>
+                    <Image Height="100" Source="assets/39_lakers.png"/>
+                </WrapPanel>
+            </StackPanel>
+        </Border>
+        <Border Margin="8" BorderThickness="3" CornerRadius="3" BorderBrush="Black">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF00000" Offset="1"/>
+                    <GradientStop Color="Black"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Stretch" FontSize="30" FontWeight="Bold" Foreground="White" Width="168">Miami Heat</TextBlock>
+                <WrapPanel HorizontalAlignment="Center">
+                    <Image Height="100" Source ="assets/7_heat.png"/>
+                    <Image Height="100" Source ="assets/13_heat.png"/>
+                    <Image Height="100" Source ="assets/14_heat.png"/>
+                    <Image Height="100" Source ="assets/22_heat.png"/>
+                    <Image Height="100" Source ="assets/99_heat.png"/>
+                </WrapPanel>
+            </StackPanel>
+        </Border>
+
+    </StackPanel>
+
 </Window>
