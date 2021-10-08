@@ -15,14 +15,14 @@
                     <GradientStop Color="#FFA200FF"/>
                 </LinearGradientBrush>
             </Border.Background>
-            <StackPanel>
-                <TextBlock Width="268" HorizontalAlignment="Stretch" FontSize="30" FontWeight="Bold">Los Ángeles Lakers</TextBlock>
+            <StackPanel HorizontalAlignment="Stretch">
+                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold">Los Ángeles Lakers</TextBlock>
                 <WrapPanel HorizontalAlignment="Center">
-                    <Image Height="100" Source="assets/3_lakers.png"/>
-                    <Image Height="100" Source="assets/9_lakers.png"/>
-                    <Image Height="100" Source="assets/14_lakers.png"/>
-                    <Image Height="100" Source="assets/23_lakers.png"/>
-                    <Image Height="100" Source="assets/39_lakers.png"/>
+                    <Image Height="100" MinWidth="140" Source="assets/3_lakers.png"/>
+                    <Image Height="100" MinWidth="140" Source="assets/9_lakers.png"/>
+                    <Image Height="100" MinWidth="140" Source="assets/14_lakers.png"/>
+                    <Image Height="100" MinWidth="140" Source="assets/23_lakers.png"/>
+                    <Image Height="100" MinWidth="140" Source="assets/39_lakers.png"/>
                 </WrapPanel>
             </StackPanel>
         </Border>
@@ -33,18 +33,17 @@
                     <GradientStop Color="Black"/>
                 </LinearGradientBrush>
             </Border.Background>
-            <StackPanel>
-                <TextBlock HorizontalAlignment="Stretch" FontSize="30" FontWeight="Bold" Foreground="White" Width="168">Miami Heat</TextBlock>
+            <StackPanel HorizontalAlignment="Stretch">
+                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold" Foreground="White">Miami Heat</TextBlock>
                 <WrapPanel HorizontalAlignment="Center">
-                    <Image Height="100" Source ="assets/7_heat.png"/>
-                    <Image Height="100" Source ="assets/13_heat.png"/>
-                    <Image Height="100" Source ="assets/14_heat.png"/>
-                    <Image Height="100" Source ="assets/22_heat.png"/>
-                    <Image Height="100" Source ="assets/99_heat.png"/>
+                    <Image Height="100" MinWidth="140" Source ="assets/7_heat.png"/>
+                    <Image Height="100" MinWidth="140" Source ="assets/13_heat.png"/>
+                    <Image Height="100" MinWidth="140" Source ="assets/14_heat.png"/>
+                    <Image Height="100" MinWidth="140" Source ="assets/22_heat.png"/>
+                    <Image Height="100" MinWidth="140" Source ="assets/99_heat.png"/>
                 </WrapPanel>
             </StackPanel>
         </Border>
-
     </StackPanel>
 
 </Window>
