@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="Equipos NBA" Height="450" Width="800" Icon="assets/128.ico">
     <Window.Resources>
-        <Style TargetType="{x:Type Border}">
+        <Style TargetType="{x:Type Border}" x:Key="BorderGenerico">
             <Setter Property="Margin" Value="10"></Setter>
             <Setter Property="BorderThickness" Value="3"></Setter>
             <Setter Property="CornerRadius" Value="3"></Setter>
             <Setter Property="BorderBrush" Value="Black"></Setter>
         </Style>
-        <Style TargetType="{x:Type Border}" x:Key="BorderLakers" BasedOn="{StaticResource {x:Type Border}}">
+        <Style TargetType="{x:Type Border}" x:Key="BorderLakers" BasedOn="{StaticResource BorderGenerico}">
             <Setter Property="Background">
                 <Setter.Value>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -23,7 +23,7 @@
                 </Setter.Value>
             </Setter>
         </Style>
-        <Style TargetType="{x:Type Border}" x:Key="BorderMiami" BasedOn="{StaticResource {x:Type Border}}">
+        <Style TargetType="{x:Type Border}" x:Key="BorderMiami" BasedOn="{StaticResource BorderGenerico}">
             <Setter Property="Background">
                 <Setter.Value>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
